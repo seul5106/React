@@ -1,0 +1,16 @@
+.containerTop {
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: #3b8be3;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
