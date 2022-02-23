@@ -74,6 +74,7 @@ function App() {
       <hr />
 
       <Routes>
+        <Route path='/' element={<MyState />} />
         <Route path='/mystate' element={<MyState />} />
         <Route path='/daterange1' element={<DateRange1 />} />
         <Route path='/myeffect' element={<MyEffect />} />

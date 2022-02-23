@@ -45,7 +45,7 @@ const MenuLink = styled(NavLink)`
     }
 `;
 
-//json-server mychool.json --port=3001
+//json-server myschool.json --port=3001
 //json-server는 단일행 조회밖에 안된다.
 
 function App() {
