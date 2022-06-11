@@ -88,7 +88,7 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.17.3.tgz#b07702b982990bf6fdc1da5049a23fece4c5c3d0"
   integrity sha512-7yJPvPV+ESz2IUTPbOL+YkIGyCqOyNIzdguKQuJGnH7bg1WTIifuM21YqokFt/THWh1AkCRn9IgoykTRCBVpzA==
 
-"@babel/runtime@^7.15.4", "@babel/runtime@^7.7.6", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.7.6", "@babel/runtime@^7.9.2":
   version "7.17.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.2.tgz#66f68591605e59da47523c631416b18508779941"
   integrity sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==
@@ -171,6 +171,16 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
+"@reduxjs/toolkit@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.8.0.tgz#8ae875e481ed97e4a691aafa034f876bfd0413c4"
+  integrity sha512-cdfHWfcvLyhBUDicoFwG1u32JqvwKDxLxDd7zSmSoFw/RhYLOygIRtmaMjPRUUHmVmmAGAvquLLsKKU/677kSQ==
+  dependencies:
+    immer "^9.0.7"
+    redux "^4.1.2"
+    redux-thunk "^2.4.1"
+    reselect "^4.1.5"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
@@ -227,6 +237,11 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
+
+add@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
+  integrity sha1-JI8Kn25aUo7yKV2+7DBTITCuIjU=
 
 agent-base@6, agent-base@^6.0.2:
   version "6.0.2"
@@ -455,6 +470,11 @@ chalk@^4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+chart.js@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-3.7.1.tgz#0516f690c6a8680c6c707e31a4c1807a6f400ada"
+  integrity sha512-8knRegQLFnPQAheZV8MjxIXc5gQEfDFD897BJgv/klO/vtIyFFmgMXrNfgrXpbTr/XbTturxRgxIXx/Y+ASJBA==
+
 chownr@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
@@ -564,6 +584,11 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
+
+dayjs@^1.10.8:
+  version "1.10.8"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.8.tgz#267df4bc6276fcb33c04a6735287e3f429abec41"
+  integrity sha512-wbNwDfBHHur9UOzNUjeKUOJ0fCb0a52Wx0xInmQ7Y8FstyajiV1NmK1e00cxsr9YrE9r7yAChE0VvpuY5Rnlow==
 
 debug@4, debug@^4.1.0, debug@^4.3.1:
   version "4.3.3"
@@ -942,6 +967,11 @@ iconv-lite@^0.6.2:
   integrity sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
   dependencies:
     safer-buffer ">= 2.1.2 < 3.0.0"
+
+immer@^9.0.7:
+  version "9.0.12"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.12.tgz#2d33ddf3ee1d247deab9d707ca472c8c942a0f20"
+  integrity sha512-lk7UNmSbAukB5B6dh9fnh5D0bJTOFKxVg2cyJWTYrWRfhLrLMBquONcUs3aFq507hNoIZEDDh8lb8UtOizSMhA==
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -1490,7 +1520,7 @@ promise-retry@^2.0.1:
     err-code "^2.0.2"
     retry "^0.12.0"
 
-prop-types@^15.7.2:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -1526,10 +1556,26 @@ quick-lru@^4.0.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
 
-react-fast-compare@^3.1.1:
+react-chartjs-2@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/react-chartjs-2/-/react-chartjs-2-4.0.1.tgz#38ed1d5b6e2f789408450c981e9e8e1d78b2e015"
+  integrity sha512-q8bgWzKoFvBvD7YcjT/hXG8jt55TaMAuJ1dmI3tKFJ7CijUWYz4pIfOhkTI6PBTwqu/pmeWsClBRd/7HiWzN1g==
+
+react-fast-compare@^3.1.1, react-fast-compare@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
+
+react-helmet-async@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/react-helmet-async/-/react-helmet-async-1.2.3.tgz#57326a69304ea3293036eafb49475e9ba454cb37"
+  integrity sha512-mCk2silF53Tq/YaYdkl2sB+/tDoPnaxN7dFS/6ZLJb/rhUY2EWGI5Xj2b4jHppScMqY45MbgPSwTxDchKpZ5Kw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    invariant "^2.2.4"
+    prop-types "^15.7.2"
+    react-fast-compare "^3.2.0"
+    shallowequal "^1.1.0"
 
 react-helmet@^6.1.0:
   version "6.1.0"
@@ -1541,6 +1587,11 @@ react-helmet@^6.1.0:
     react-fast-compare "^3.1.1"
     react-side-effect "^2.1.0"
 
+react-intersection-observer@^8.33.1:
+  version "8.33.1"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.33.1.tgz#8e6442cac7052ed63056e191b7539e423e7d5c64"
+  integrity sha512-3v+qaJvp3D1MlGHyM+KISVg/CMhPiOlO6FgPHcluqHkx4YFCLuyXNlQ/LE6UkbODXlQcLOppfX6UMxCEkUhDLw==
+
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -1550,6 +1601,17 @@ react-is@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-loader-spinner@^6.0.0-0:
+  version "6.0.0-0"
+  resolved "https://registry.yarnpkg.com/react-loader-spinner/-/react-loader-spinner-6.0.0-0.tgz#3fbd853097069a195c2cd2da9161a08d50345a3b"
+  integrity sha512-ANUS2nWUNALH933d04IY3iT6aIYuizI6mQpzHjH5i4aKdnLhm68JLICd2CKdOgxCNixM5iKqA8QSNWBdKe4++g==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    prop-types "^15.8.1"
+    styled-components "^5.3.3"
+    styled-tools "^1.7.2"
+    tslib "^2.3.0"
 
 react-redux@^7.2.6:
   version "7.2.6"
@@ -1563,18 +1625,18 @@ react-redux@^7.2.6:
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
-react-router-dom@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.2.1.tgz#32ec81829152fbb8a7b045bf593a22eadf019bec"
-  integrity sha512-I6Zax+/TH/cZMDpj3/4Fl2eaNdcvoxxHoH1tYOREsQ22OKDYofGebrNm6CTPUcvLvZm63NL/vzCYdjf9CUhqmA==
+react-router-dom@^6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.2.2.tgz#f1a2c88365593c76b9612ae80154a13fcb72e442"
+  integrity sha512-AtYEsAST7bDD4dLSQHDnk/qxWLJdad5t1HFa1qJyUrCeGgEuCSw0VB/27ARbF9Fi/W5598ujvJOm3ujUCVzuYQ==
   dependencies:
     history "^5.2.0"
-    react-router "6.2.1"
+    react-router "6.2.2"
 
-react-router@6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.2.1.tgz#be2a97a6006ce1d9123c28934e604faef51448a3"
-  integrity sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==
+react-router@6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.2.2.tgz#495e683a0c04461eeb3d705fe445d6cf42f0c249"
+  integrity sha512-/MbxyLzd7Q7amp4gDOGaYvXwhEojkJD5BtExkuKmj39VEE0m3l/zipf6h2WIB2jyAO0lI6NGETh4RDcktRm4AQ==
   dependencies:
     history "^5.2.0"
 
@@ -1707,6 +1769,11 @@ require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
+
+reselect@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.1.5.tgz#852c361247198da6756d07d9296c2b51eddb79f6"
+  integrity sha512-uVdlz8J7OO+ASpBYoz1Zypgx0KasCY20H+N8JD13oUMtPvSHQuscrHop4KbXrbsBcdB9Ds7lVK7eRkBIfO43vQ==
 
 resolve@^1.10.0:
   version "1.22.0"
@@ -1950,6 +2017,11 @@ styled-components@^5.3.3:
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
 
+styled-tools@^1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/styled-tools/-/styled-tools-1.7.2.tgz#a8f71198535cf785d7db0927cc1c1b88337c4440"
+  integrity sha512-IjLxzM20RMwAsx8M1QoRlCG/Kmq8lKzCGyospjtSXt/BTIIcvgTonaxQAsKnBrsZNwhpHzO9ADx5te0h76ILVg==
+
 supports-color@^5.3.0, supports-color@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -2024,6 +2096,11 @@ trim-newlines@^3.0.0:
   integrity sha512-m6s2OdQe5wgpFMC+pAJ+q9djG82O2jcHPOI6RNg1yy9rCYR+WD6Nbpl32fDpfC56nirdRy+opFa/Vk7HYhqaew==
   dependencies:
     glob "^7.1.2"
+
+tslib@^2.3.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

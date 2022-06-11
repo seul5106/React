@@ -5,16 +5,16 @@ import Hello from './MyComponent1';
 import World from './MyComponent2';
 
 const App = () => {
-    return ( <
+    return (<
         div >
         <
         h1 > Hello React < /h1> <
-        Hello / >
-        <
-        World / >
-        <
+                Hello />
+            <
+                World />
+            <
         /div>
-    );
+            );
 }
 
-export default App;
+            export default App;
